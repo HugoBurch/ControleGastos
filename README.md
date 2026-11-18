@@ -114,37 +114,21 @@ Depois, abra o projeto com o **Expo Go** em um dispositivo compatível ou utiliz
 
 ## 📸 Capturas de tela
 
-<div align="center">
+| Tela inicial | Tela inicial no tema claro |
+| :---: | :---: |
+| <img src="./assets/TelaInicial.jpeg" alt="Tela inicial no tema escuro" width="300"> | <img src="./assets/TelainicialBranca.jpeg" alt="Tela inicial no tema claro" width="300"> |
 
-### Tela inicial
+| Histórico financeiro | Análise financeira |
+| :---: | :---: |
+| <img src="./assets/historico.jpeg" alt="Tela de histórico financeiro" width="300"> | <img src="./assets/analisefinanceira.jpeg" alt="Tela de análise financeira" width="300"> |
 
-<img src="./assets/TelaInicial.jpeg" alt="Tela inicial no tema escuro" width="300">
+| Categorias | Lançamento |
+| :---: | :---: |
+| <img src="./assets/categoria.jpeg" alt="Tela de gerenciamento de categorias" width="300"> | <img src="./assets/lançamento.jpeg" alt="Tela de edição de lançamento" width="300"> |
 
-### Tela inicial no tema claro
-
-<img src="./assets/TelainicialBranca.jpeg" alt="Tela inicial no tema claro" width="300">
-
-### Histórico financeiro
-
-<img src="./assets/historico.jpeg" alt="Tela de histórico financeiro" width="300">
-
-### Análise financeira
-
-<img src="./assets/analisefinanceira.jpeg" alt="Tela de análise financeira" width="300">
-
-### Categorias
-
-<img src="./assets/categoria.jpeg" alt="Tela de gerenciamento de categorias" width="300">
-
-### Lançamento
-
-<img src="./assets/lançamento.jpeg" alt="Tela de edição de lançamento" width="300">
-
-### Perfil e ajustes
-
-<img src="./assets/Perfil&Ajuste.jpeg" alt="Tela de perfil e ajustes" width="300">
-
-</div>
+| Perfil e ajustes |
+| :---: |
+| <img src="./assets/Perfil&Ajuste.jpeg" alt="Tela de perfil e ajustes" width="300"> |
 
 ## 📌 Objetivo do projeto
 
