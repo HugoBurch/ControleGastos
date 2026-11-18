@@ -6,7 +6,9 @@ import {
   Text,
   ActivityIndicator,
   StyleSheet,
+  Platform,
 } from 'react-native';
+import { NavigationBar } from 'expo-navigation-bar';
 
 import { initDatabase } from './src/database/database';
 import { ThemeProvider } from './src/contexts/ThemeContext';
@@ -17,6 +19,12 @@ import AppNavigator from './src/navigation/AppNavigator';
 export default function App() {
   const [pronto, setPronto] = useState(false);
   const [erro, setErro] = useState('');
+
+  useEffect(() => {
+    if (Platform.OS === 'android') {
+      NavigationBar.setHidden(true);
+    }
+  }, []);
 
   // Inicializa o banco uma única vez e evita atualizar o estado após desmontar.
   useEffect(() => {
