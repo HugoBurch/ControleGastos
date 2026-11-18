@@ -4,7 +4,7 @@ import React, { useEffect, useState } from 'react';
 import {
   View,
   Text,
-  ActivityIndicator,
+  Image,
   StyleSheet,
   Platform,
 } from 'react-native';
@@ -62,17 +62,17 @@ export default function App() {
     );
   }
 
-  // Exibe o indicador de carregamento enquanto a inicialização está em andamento.
+  // Exibe a arte completa enquanto a inicialização está em andamento.
   if (!pronto) {
     return (
-      <View style={styles.container}>
-        <ActivityIndicator
-          size="large"
-          color="#B9F653"
+      <View style={styles.splashContainer}>
+        <Image
+          source={require('./assets/splash.png')}
+          style={styles.splashImage}
+          resizeMode="contain"
+          accessible
+          accessibilityLabel="Órbita Finanças está carregando."
         />
-        <Text style={styles.texto}>
-          Carregando Órbita Finanças...
-        </Text>
       </View>
     );
   }
@@ -87,17 +87,22 @@ export default function App() {
 
 // Define o layout compartilhado e as cores das telas de carregamento e erro.
 const styles = StyleSheet.create({
+  splashContainer: {
+    flex: 1,
+    backgroundColor: '#031D27',
+  },
+
+  splashImage: {
+    width: '100%',
+    height: '100%',
+  },
+
   container: {
     flex: 1,
     backgroundColor: '#101112',
     justifyContent: 'center',
     alignItems: 'center',
     padding: 20,
-  },
-
-  texto: {
-    color: '#FFFFFF',
-    marginTop: 15,
   },
 
   erro: {

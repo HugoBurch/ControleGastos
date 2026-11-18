@@ -36,19 +36,24 @@
       [
         "expo-splash-screen",
         {
-          "image": "./assets/splash.png",
+          "image": "./assets/icon.png",
+          "imageWidth": 200,
           "resizeMode": "contain",
-          "backgroundColor": "#101112"
+          "backgroundColor": "#031D27"
         }
       ]
     ],
     "extra": {
       "eas": {
         "projectId": "7a1c668c-41c8-45a8-a114-7ed6e14d1762"
+      },
+      "expo-navigation-bar": {
+        "hidden": true
       }
     },
     "updates": {
-      "fallbackToCacheTimeout": 0
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/7a1c668c-41c8-45a8-a114-7ed6e14d1762"
     },
     "runtimeVersion": {
       "policy": "appVersion"

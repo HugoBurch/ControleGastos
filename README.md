@@ -112,6 +112,40 @@ npx expo start
 
 Depois, abra o projeto com o **Expo Go** em um dispositivo compatível ou utilize um emulador configurado. Os comandos podem variar conforme os scripts e dependências presentes no `package.json`.
 
+## 📸 Capturas de tela
+
+<div align="center">
+
+### Tela inicial
+
+<img src="./assets/TelaInicial.jpeg" alt="Tela inicial no tema escuro" width="300">
+
+### Tela inicial no tema claro
+
+<img src="./assets/TelainicialBranca.jpeg" alt="Tela inicial no tema claro" width="300">
+
+### Histórico financeiro
+
+<img src="./assets/historico.jpeg" alt="Tela de histórico financeiro" width="300">
+
+### Análise financeira
+
+<img src="./assets/analisefinanceira.jpeg" alt="Tela de análise financeira" width="300">
+
+### Categorias
+
+<img src="./assets/categoria.jpeg" alt="Tela de gerenciamento de categorias" width="300">
+
+### Lançamento
+
+<img src="./assets/lançamento.jpeg" alt="Tela de edição de lançamento" width="300">
+
+### Perfil e ajustes
+
+<img src="./assets/Perfil&Ajuste.jpeg" alt="Tela de perfil e ajustes" width="300">
+
+</div>
+
 ## 📌 Objetivo do projeto
 
 Praticar o desenvolvimento mobile e a organização de um aplicativo financeiro, incluindo criação de telas, formulários, navegação, gerenciamento de dados e personalização visual.
